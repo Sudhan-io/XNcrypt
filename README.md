@@ -3,21 +3,21 @@
 
 ---
 
-## Topic
+##  Topic
 
-**XCrypt** is a beginner-friendly, Python-based GUI tool that helps users encrypt and decrypt text using both classical and modern cipher algorithms. Whether youâ€™re exploring cryptography or need to encode information securely, this tool provides you a sleek, functional interface with 10 different cipher options â€” all in one place.
+**XCrypt** is a beginner-friendly, Python-based GUI tool that helps users encrypt and decrypt text using both classical and modern cipher algorithms. Whether youre exploring cryptography or need to encode information securely, this tool provides you a sleek, functional interface with 10 different cipher options  all in one place.
 
 ---
 
-##Explanation
+##  Explanation
 
-XCrypt is built using Pythonâ€™s Tkinter library for the GUI and the `cryptography` library for secure methods like AES.  
+XCrypt is built using Pythons Tkinter library for the GUI and the `cryptography` library for secure methods like AES.  
 The tool is designed to make encryption easy to understand and use for both students and developers.  
 Users can select an encryption method, input text and a key (if required), and instantly encrypt or decrypt the message. It supports file handling and password/key generation too.
 
 ---
 
-##Features
+##  Features
 
 - Simple and modern GUI (Tkinter-based)
 - 10 built-in encryption and decryption algorithms
@@ -29,15 +29,15 @@ Users can select an encryption method, input text and a key (if required), and i
 
 ---
 
-##Supported Encryption Methods
+##  Supported Encryption Methods
 
 | Cipher           | Key Required       | Description                                      |
 |------------------|--------------------|--------------------------------------------------|
 | Caesar           | Yes (Integer)      | Shifts each letter by a fixed number             |
-| VigenÃ¨re         | Yes (String)       | Uses a keyword to shift characters               |
+| Vigenre         | Yes (String)       | Uses a keyword to shift characters               |
 | Base64           | No                 | Converts plain text to base64 format             |
 | ROT13            | No                 | Caesar variant with fixed shift of 13           |
-| Atbash           | No                 | Reverses the alphabet (Aâ†”Z, Bâ†”Y, etc.)           |
+| Atbash           | No                 | Reverses the alphabet (AZ, BY, etc.)           |
 | AES              | Yes (Password)     | Strong symmetric encryption (Fernet-based)       |
 | RSA (Simulated)  | Yes (Two primes)   | Basic educational public-key encryption          |
 | XOR              | Yes (String)       | XORs each character with repeating key           |
@@ -46,7 +46,7 @@ Users can select an encryption method, input text and a key (if required), and i
 
 ---
 
-##Installation
+##  Installation
 
 ### Requirements
 
@@ -60,11 +60,11 @@ pip install cryptography
 
 ---
 
-##How to Use Each Encryption Method
+##  How to Use Each Encryption Method
 
 ### Caesar Cipher
 - **Input Text:** Alphabetic message like `HELLO`
-- **Key:** An integer between 0â€“25 (e.g., `3`)
+- **Key:** An integer between 025 (e.g., `3`)
 - **Example:**
   - Input: `HELLO`
   - Key: `3`
@@ -72,7 +72,7 @@ pip install cryptography
 
 ---
 
-### VigenÃ¨re Cipher
+### Vigenre Cipher
 - **Input Text:** Alphabetic text like `HELLOWORLD`
 - **Key:** A word or string (e.g., `KEY`)
 - **Example:**
@@ -97,7 +97,7 @@ pip install cryptography
 - **Example:**
   - Input: `HELLO`
   - Output: `URYYB`
-- **Note:** ROT13 is self-reversible â€” same for encrypt and decrypt
+- **Note:** ROT13 is self-reversible  same for encrypt and decrypt
 
 ---
 
